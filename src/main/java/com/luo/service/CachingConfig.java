@@ -1,12 +1,4 @@
-/**   
-* @Title: CachingConfig.java 
-* @Package com.luo.service 
-* @Description: TODO(用一句话描述该文件做什么) 
-* @Company:方正
-* @author zhaolei  
-* @date 2017年12月8日 下午4:03:41 
-* @version V1.0   
-*/
+
 package com.luo.service;
 
 import org.slf4j.Logger;
@@ -19,13 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
-/** 
-* @ClassName: CachingConfig 
-* @Description: TODO java方式注解ehcache 
-* @Company:方正
-* @author zhaolei 
-* @version 1.0 2017年12月8日 下午4:03:41 
-*/
+
 //@Configuration
 //@EnableCaching//<!-- 启用缓存注解 --> <cache:annotation-driven cache-manager="cacheManager" />
 public class CachingConfig {
